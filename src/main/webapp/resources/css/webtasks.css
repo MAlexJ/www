@@ -1,0 +1,481 @@
+@CHARSET "UTF-8";
+
+/* =Global Elements
+-------------------------------------------------------------- */
+html, body {
+    margin: 0px;
+    background: #F8F8FF;
+    font-family: cursive;
+}
+
+a {
+    color: blue;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+header div {
+    float: right;
+    margin-top: -30px;
+    margin-right: 200px;
+}
+
+header table {
+    border-style: solid;
+    border-color: #8B8386;
+    border-width: 3px;
+    background-color: white;
+    font-size: x-large;
+    width: 840px;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+section {
+    width: 100%;
+    height: auto;
+}
+
+table#table_for_error_message {
+    width: 100%;
+    line-height: 120px;
+}
+
+.error_message {
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+
+.data_container_for_not_found {
+    text-align: center;
+    width: 90%;
+    margin: 50px auto;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+div.link_container {
+    margin: 50px 0 0 20px;
+}
+
+.link_container table {
+    width: 200px;
+    font-size: small;
+}
+
+/* =Input and button 
+-------------------------------------------------------------- */
+.text {
+    font-family: cursive;
+    border-color: #C1CDCD;
+    line-height: 24px;
+    padding: 0 0 0 5px;
+    width: 190px;
+}
+
+input#button_long_name {
+    width: 100%;
+    height: 35px;
+    font-family: cursive;
+    background-color: #CDC9C9;
+    border-color: #838B8B
+}
+
+input#button_short_name {
+    width: 250px;
+    height: 35px;
+    font-family: cursive;
+    background-color: #CDC9C9;
+    border-color: #838B8B
+}
+
+input#button {
+    font-family: cursive;
+    width: 120px;
+    background-color: #CDC9C9;
+    height: 28px;
+    border-color: #8B8989
+}
+
+input#button_marks {
+    width: 35%;
+    height: 35px;
+    font-family: cursive;
+    background-color: #CDC9C9;
+    border-color: #838B8B;
+}
+
+input#number {
+    padding: 0 0 0 7px;
+    font-family: cursive;
+    width: 30px;
+    background-color: white;
+    height: 28px;
+    border-color: #8B8989
+}
+
+select#multi_list {
+    border-color: #C1CDCD;
+    border-style: outset;
+    border-width: 2px;
+    padding: 0 0 0 5px;
+    font-family: cursive;
+    width: 200px;
+}
+
+select#opening_list {
+    border-color: #C1CDCD;
+    border-style: inset;
+    border-width: 2px;
+    padding: 0 0 0 5px;
+    width: 200px;
+    height: 28px;
+    font-family: cursive;
+}
+
+/* =Style for login-page
+-------------------------------------------------------------- */
+.login_form_container {
+    margin: 50px auto;
+    width: 330px;
+}
+
+.login_form_container table#login_table {
+    width: 100%;
+    border: 2px solid #8B8386;
+    line-height: 30px;
+}
+
+.login_form_container table .caption {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #8B8386;
+}
+
+/* =Style for terms-pages
+-------------------------------------------------------------- */
+.terms_list_container {
+    margin: -50px auto;
+    width: 840px;
+}
+
+table#small_font_100_380 {
+    line-height: 100px;
+    font-size: small;
+    width: 380px;
+    border-color: #D1EEEE;
+}
+
+.main_line {
+    font-size: 19px;;
+    line-height: 80px;
+    white-space: nowrap;
+}
+
+/* =Style for title-page
+-------------------------------------------------------------- */
+.title_page_container {
+    margin: 50px auto;
+    width: 840px;
+}
+
+.title_page_container table {
+    padding: 0px;
+    font-size: large;
+    width: 100%;
+}
+
+/* =Style for student-page
+-------------------------------------------------------------- */
+.student_list_container {
+    margin: -30px auto;
+    width: 840px;
+}
+
+.student_creating_container {
+    margin: -52px auto;
+    width: 840px;
+}
+
+table#student_list_table {
+    font-size: small;
+    margin-top: 10px;
+    border-color: #D1EEEE;
+}
+
+.student_list_container table#student_list_table tr, th {
+    padding-bottom: 20px;
+}
+
+.student_creating_container table {
+    line-height: 40px;
+    font-size: small;
+}
+
+/* =Style for Discipline-page
+-------------------------------------------------------------- */
+.disciplines_List_container {
+    margin: -25px auto;
+    width: 840px;
+}
+
+.ui-widget {
+    width: 230px;
+    height: 250px;
+}
+
+/* =Style for Marks-page
+-------------------------------------------------------------- */
+table#small_font_80_600 {
+    line-height: 80px;
+    font-size: small;
+    width: 600px;
+    border-color: #D1EEEE;
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -325px;
+    width: 650px;
+    height: 250px;
+    background: #CDC9C9;
+    border: 3px solid #838B8B;
+    padding-top: 15px;
+    color: #FFF;
+    font: 45px cursive;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 3px #607B8B;
+    top: 50%;
+}
+
+/*-----  Student list -----*/
+
+#content_style {
+    height: 800px;
+    padding: 0px;
+    margin: 10px auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.admin_table {
+    width: 700px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.admin_table_disc {
+    width: 300px;
+    height: 150px;
+    margin: 10px auto;
+    float: left;
+}
+
+.button_style {
+    font-family: cursive;
+    font-size: 10pt;
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+}
+
+.table_student {
+    margin: 5px auto;
+}
+
+.table_discipline {
+    margin-top: 10px;
+    margin-left: 200px;
+    clear: left;
+    float: left;
+}
+
+.table_term {
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 280px;
+    text-align: left;
+    clear: left;
+    float: left;
+}
+
+.list {
+    margin-top: 30px;
+    margin-left: 200px;
+    clear: left;
+    float: left;
+    text-align: left;
+}
+
+.list_1 {
+    margin-top: 20px;
+    margin-left: 200px;
+    clear: left;
+    float: left;
+    text-align: left;
+}
+
+.list_2 {
+    margin-top: 10px;
+    margin-left: 200px;
+    float: left;
+    text-align: left;
+}
+
+.list_3 {
+    margin-top: 10px;
+    margin-left: 95px;
+    float: left;
+}
+
+.list_4 {
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+}
+
+#select_opt {
+    height: 30px;
+    width: 160px;
+}
+
+.button_opt {
+    height: 30px;
+    width: 120px;
+}
+
+.header_list {
+    margin: auto;
+    height: 50;
+    font-size: 12pt;
+}
+
+/* ------   Student list   ----------- */
+
+.error_message {
+    color: red;
+    font-size: 11pt;
+    width: 350px;
+    height: 40px;
+    margin: auto;
+}
+
+/*-------------  CSS studentsCreate.css ----------- */
+
+/*---  id="header_create_form" --- */
+#header_create_form {
+    display: block;
+    width: 1000px;
+    height: 40px;
+    margin: 5px auto;
+    text-align: center;
+    font-family: cursive;
+}
+
+.header_class {
+    display: block;
+    width: 800px;
+    height: 30px;
+    margin: 0px auto;
+    margin: 10px auto;
+}
+
+.header_home {
+    display: inline-block;
+    font-size: 10pt;
+    width: 79px;
+}
+
+.header_home_1 {
+    display: inline-block;
+    font-size: 10pt;
+    width: 79px;
+    margin-left: 250px;
+}
+
+.header_back {
+    display: inline-block;
+    font-size: 10pt;
+    width: 70px;
+}
+
+.header_label_2 {
+    display: inline-block;
+    font-size: 12pt;
+    width: 640px;
+    text-align: left;
+    font-weight: bolder;
+
+}
+
+/*---- id="content_create_form" -- */
+#content_create_form {
+    display: block;
+    width: 1000px;
+    margin: 5px auto;
+    font-family: cursive;
+    font-size: 11pt;
+}
+
+#form_creat {
+    display: block;
+    width: 760px;
+    margin: 5px auto;
+}
+
+.label_form {
+    display: inline-block;
+    width: 200px;
+    font-size: 11pt;
+    text-align: right;
+    padding: 10px;
+}
+
+.label_form_term {
+    display: inline-block;
+    width: 200px;
+    font-size: 11pt;
+    text-align: right;
+    padding: 10px;
+}
+
+.div_form_term {
+    margin-top: 10px;
+    clear: left;
+    float: left;
+}
+
+.input_form {
+    display: inline-block;
+    width: 130px;
+    height: 20px;
+    margin: 10px;
+}
+
+.input_submit {
+    display: inline-block;
+    width: 138px;
+    height: 25px;
+    margin: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 10pt;
+    margin: 10px;
+}
+
+/*-------------  CSS studentsCreate.css ------------ */
+
