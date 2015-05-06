@@ -35,7 +35,7 @@ public class DBConnection {
     public DBConnection(String url) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection(Constants.CONNECTING_URL, "root", "root");
+            conn = DriverManager.getConnection(Constants.CONNECTING_URL, "root", "2687484a");
             loadPreparedStatements();
         } catch (SQLException e) {
             LOGGER.error("SQLException - > DBConnection(String url); " + e);
