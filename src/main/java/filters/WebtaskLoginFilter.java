@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * Created by alex on 12.05.15.
+ */
 
 public class WebtaskLoginFilter extends AbstractWebtasksFilter implements Constants {
 
@@ -18,11 +21,9 @@ public class WebtaskLoginFilter extends AbstractWebtasksFilter implements Consta
     }
 
     @Override
-    public void doFilter(HttpServletRequest request,
-                         HttpServletResponse response, FilterChain chain)
-            throws IOException, ServletException {
-        Account currentSession = (Account) request.getSession().getAttribute(
-                CURRENT_SESSION_ACCOUNT);
+    public void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException {
+
+        Account currentSession = (Account) request.getSession().getAttribute(CURRENT_SESSION_ACCOUNT);
 
         String uri = request.getRequestURI();
         String context = request.getContextPath();
